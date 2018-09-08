@@ -195,7 +195,7 @@ var options = exports.options = (0, _misc.propertyDefaults)(userOptions, {
 		default: true,
 		title: 'Official server',
 		proto: 'old',
-		url: 'ws://wire.ddns.net:7000'
+		url: 'https://sites.google.com/view/nanan-senpai'
 	}, {
 		default: false,
 		title: 'Localhost',
