@@ -195,12 +195,12 @@ var options = exports.options = (0, _misc.propertyDefaults)(userOptions, {
 		default: true,
 		title: 'Official server',
 		proto: 'old',
-		url: 'https://sites.google.com/view/nanan-senpai'
+		url: 'ws://sites.google.com/view/nanan-senpai'
 	}, {
 		default: false,
 		title: 'Localhost',
 		proto: 'old',
-		url: 'https://sites.google.com/view/nanan-senpai',
+		url: 'ws://sites.google.com/view/nanan-senpai',
 		maxRetries: 1
 	}], // The server address that websockets connect to
 	fallbackFps: 30, // Fps used if requestAnimationFrame is not supported
